@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background: url(./img\ bg\ moon.jpg) no-repeat;
+    background-size:cover;
+    position: relative;
+
+}
+.login-form{
+    width: 350px;
+    margin-top: 15%;
+    left: 40%;
+    position: absolute;
+    color: white;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    /* transform: translate(-50%,-50%); */
+    height: 430px;
+    width: 350px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    opacity: 1;
+}
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 70px;
+    margin: 15px 0px;
+    
+}
+.login-form p{
+    font-size: 20px;
+    margin: 14px 0px;
+    margin-left: 30px;
+}
+.login-form input{
+    font-size: 20px;
+    border: 0;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    margin-left: 30px;
+   
+}
+.login-form button{
+    font-size: 20px;
+    font-weight:bold; 
+    position: absolute;
+    /* margin: 50px 30px; */
+    /* padding: 20px 0;  */
+    margin-top: 40px; 
+    right: 100px;
+    width: 40%;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+
+}
+.login-form button:hover{
+    background-color:purple;
+
+}
+.login-form input:hover{
+    background-color: purple;
+}
+#containt{
+    color:blue;
+    padding: 10px 0px;
+    margin-left: 105px;
+}
+.icons a{
+    height: 100px;
+    width: 50px;
+    color:aqua;
+    font-size: 30px;
+    padding: 0px;
+    position: relative;
+    top: 130px;
+    /* padding: 20px 20px; */
+    padding-right: 35px;
+    
+
+}
+.icons ion-icon:hover{
+    color: purple;
+}
+.para1{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 578px;
+    margin-left: 600px;
+
+}
+/* .login-form{
+    background-color: red;
+    opacity: .7;
+} */
